@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ashim_pal\\source\\repos\\playwrightfw\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ashim_pal\\source\\repos\\playwrightfw\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ashim_pal\\source\\repos\\playwrightfw\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW.csproj",
+        "projectName": "EPAM.PlaywrightFW",
+        "projectPath": "C:\\Users\\ashim_pal\\source\\repos\\playwrightfw\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW.csproj",
+        "packagesPath": "C:\\Users\\ashim_pal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ashim_pal\\source\\repos\\playwrightfw\\EPAM.PlaywrightFW\\EPAM.PlaywrightFW\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ashim_pal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

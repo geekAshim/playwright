@@ -1,0 +1,17 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-specflow/master/ReportPortal.SpecFlowPlugin/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "https://reportportal.epam.com",
+    "project": "ashim_pal_personal",
+    "authentication": {
+      "uuid": "myKey_wb4kpWuHTES7k0kWKD8zd0mYaHS28GM2nzR2cFPf5hY4pyEI1tau5OHtbtXNHg_L"
+    }
+  },
+  "launch": {
+    "name": "Playwright Azure Test Launch",
+    "description": "This is test solution",
+    "debugMode": false,
+    "attributes": [ "t1", "os:win10" ]
+  }
+}
