@@ -27,8 +27,7 @@ jobs:
     - name: Playwright Config
       shell: pwsh
       run: |
-        echo $GITHUB_OUTPUT
-        cd $GITHUB_OUTPUT        
+        cd $GITHUB_OUTPUT/work/playwright/playwright/EPAM.Playwright.Test/bin/Debug/net6.0        
         dir        
     - name: Test
       run: dotnet test --no-build --verbosity normal
