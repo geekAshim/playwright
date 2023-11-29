@@ -27,6 +27,7 @@ jobs:
     - name: Playwright Config
       shell: pwsh
       run: |
-        playwright.ps1 install    
+        dir ${{ github.workspace }}
+        ${{ github.workspace }}\playwright.ps1 install    
     - name: Test
       run: dotnet test --no-build --verbosity normal
