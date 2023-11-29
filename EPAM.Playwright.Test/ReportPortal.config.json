@@ -9,7 +9,7 @@
     }
   },
   "launch": {
-    "name": "Playwright Azure Test Launch",
+    "name": "Playwright Github Test",
     "description": "This is test solution",
     "debugMode": false,
     "attributes": [ "t1", "os:win10" ]
