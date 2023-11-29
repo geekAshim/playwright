@@ -27,7 +27,7 @@ jobs:
     - name: Playwright Config
       shell: pwsh
       run: |
-        echo $GITHUB_ACTION_PATH
+        echo $GITHUB_OUTPUT
         cd $GITHUB_OUTPUT        
         dir        
     - name: Test
