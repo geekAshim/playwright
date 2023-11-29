@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Playwright Config
-      shell: pshw
+      shell: pwsh
       run: |
         echo '$GITHUB_ACTION_PATH'
         cd '$GITHUB_ACTION_PATH'
