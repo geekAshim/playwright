@@ -27,7 +27,7 @@ jobs:
     - name: Playwright Config
       shell: pwsh
       run: |
-        dir ${{ github.workspace }}
-        ${{ github.workspace }}\playwright.ps1 install    
+        dir ${{ github.workspace }}\EPAM.Playwright.Test\bin\Debug\net6.0
+        ${{ github.workspace }}\EPAM.Playwright.Test\bin\Debug\net6.0\playwright.ps1 install    
     - name: Test
       run: dotnet test --no-build --verbosity normal
