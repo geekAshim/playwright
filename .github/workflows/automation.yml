@@ -27,8 +27,7 @@ jobs:
     - name: Playwright Config
       shell: pwsh
       run: |
-        echo '$GITHUB_ACTION_PATH'
-        cd '$GITHUB_ACTION_PATH'
+        echo $GITHUB_ACTION_PATH        
         dir
     - name: Test
       run: dotnet test --no-build --verbosity normal
