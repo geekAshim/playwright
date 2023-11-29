@@ -30,6 +30,6 @@ jobs:
         echo $GITHUB_ACTION_PATH
         cd $GITHUB_ACTION_PATH        
         dir
-        playwright.ps1 install
+        $GITHUB_ACTION_PATH/work/playwright/playwright/playwright.ps1 install
     - name: Test
       run: dotnet test --no-build --verbosity normal
