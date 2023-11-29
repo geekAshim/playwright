@@ -28,7 +28,7 @@ jobs:
       shell: pwsh
       run: |
         echo $GITHUB_ACTION_PATH
-        cd $GITHUB_ACTION_PATH/work/playwright/playwright        
+        cd $GITHUB_OUTPUT        
         dir        
     - name: Test
       run: dotnet test --no-build --verbosity normal
