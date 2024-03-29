@@ -228,6 +228,22 @@ namespace EPAM.Playwright.Test
             await Page.Locator("a.close-button").ClickAsync(); // Auto waiting for popup ....
         }
 
+        [Test]
+        public async Task TrishulTask()
+        {
+            var playwright = await Microsoft.Playwright.Playwright.CreateAsync();
+            IBrowser browser = await playwright.Firefox.LaunchAsync(new BrowserTypeLaunchOptions
+            {
+                Headless = false
+            }) ;
+
+            IPage myPage = await browser.NewPageAsync();
+
+            await myPage.GotoAsync("https://www.guru99.com/");
+            IReadOnlyList<ILocator> element = await myPage.Locator("xpath=.//b[text()='Testing']").AllAsync();
+            string inntertext = await element.FirstOrDefault().InnerTextAsync();
+        }
+
         [OneTimeTearDown]
         public void CleanUp()
         {
